@@ -1,3 +1,19 @@
+# IMPLEMENT
+I forked it from mrnabati/CenterFusion. 
+### Implement detail:
+| Item | description |
+|:---:|:---:|
+|CPU|Intel Core i7-10700 CPU @ 2.90GHz|
+|Memory| DDR4 31.9 GB|
+|GPU | nvidia GeForce RTX 3090 (24GB)|
+|OS | Windows 10|
+| DL. framework | Torch 0.11.0 |
+
+## some problem and solution..
+- `convert_kitti_to_coco.py` could be converting kitti to coco format. Furthermore, make sure the point clouds are added to the `image_info` dictionary.
+
+---
+
 # CenterFusion <!-- omit in toc --> 
  This repository contains the implementation of [CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2011.04841).
 
